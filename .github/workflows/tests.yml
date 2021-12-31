@@ -1,7 +1,12 @@
 name: Runs tests
 on: [push]
 jobs:
-    Explore-GitHub-Actions:
+    test:
+        services:
+            dynamodb:
+                image: amazon/dynamodb-local
+                ports:
+                    - 8000:8000
         runs-on: ubuntu-latest
         steps:
             - name: Check out repository code
