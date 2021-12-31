@@ -1,10 +1,10 @@
 import Container from 'react-bootstrap/esm/Container';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import { NavbarComponent } from './Components/NavbarComponent';
-import { Home } from './Screens/Home';
-import { Login } from './Screens/Login';
-import { Profile } from './Screens/Profile';
-import { SignUp } from './Screens/SignUp';
+import { NavbarComponent } from './components/NavbarComponent';
+import { Home } from './screens/Home';
+import { Login } from './screens/Login';
+import { Profile } from './screens/Profile';
+import { SignUp } from './screens/SignUp';
 
 export function App() {
     return (

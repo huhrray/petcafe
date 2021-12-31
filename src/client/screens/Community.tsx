@@ -1,6 +1,6 @@
-import { Message } from '../Components/Message';
+import { Message } from '../components/Message';
 import Button from 'react-bootstrap/Button';
-import { PaginationBar } from '../Components/PaginationBar';
+import { PaginationBar } from '../components/PaginationBar';
 
 export const Community = () => {
     return (
