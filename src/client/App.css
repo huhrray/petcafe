@@ -1,0 +1,40 @@
+/* accordion bar */
+.accordion-button:not(.collapsed) {
+    color: black;
+    background-color: rgba(0, 0, 0, 0.125);
+}
+.accordion-button:focus {
+    box-shadow: 0 0 0 0.25rem #adb5bd;
+}
+.accordion-button:not(.collapsed)::after {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23212529'%3e%3cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e");
+}
+
+/* pagination */
+
+.pagination > li > a {
+    background-color: #ffffff;
+    color: #414040;
+}
+
+.pagination > li > a:focus,
+.pagination > li > a:hover,
+.pagination > li > span:focus,
+.pagination > li > span:hover {
+    color: #adb5bd;
+    background-color: #eee;
+    border-color: #ddd;
+    box-shadow: none;
+    outline: 1px solid #414040;
+}
+
+.pagination > .active > a {
+    color: white;
+    background-color: #adb5bd !important;
+    border: solid 1px #adb5bd !important;
+}
+
+.pagination > .active > a:hover {
+    background-color: #adb5bd !important;
+    border: solid 1px #adb5bd;
+}
