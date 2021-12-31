@@ -1,6 +1,6 @@
 import Accordion from 'react-bootstrap/Accordion';
 import { Community } from './Community';
-import { DogCounter } from '../Components/DogCounter';
+import { DogCounter } from '../components/DogCounter';
 import Row from 'react-bootstrap/Row';
 
 export const Home = () => {

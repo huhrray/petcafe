@@ -5,6 +5,7 @@
     "main": "index.js",
     "scripts": {
         "start": "npx parcel serve src/client/index.html",
+        "start:db": "./scripts/run-local-dynamodb.sh",
         "test": "jest",
         "test:watch": "jest --watch",
         "test:format": "prettier --check src/**/*.ts",
@@ -36,6 +37,7 @@
         "typescript": "^4.5.4"
     },
     "dependencies": {
+        "aws-sdk": "^2.1048.0",
         "bootstrap": "^5.1.3",
         "react": "^17.0.2",
         "react-bootstrap": "^2.0.4",
